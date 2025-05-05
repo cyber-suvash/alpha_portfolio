@@ -52,7 +52,7 @@ const ContactForm = () => {
     setTimeout(async () => {
       try {
         const response = await axios.post(
-          import.meta.env.VITE_LOCAL_SERVER,
+          import.meta.env.VITE_APP_SERVER_API,
           formdata
         );
         console.log("Server Response:", response);
