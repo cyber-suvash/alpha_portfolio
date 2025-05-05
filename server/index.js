@@ -9,7 +9,7 @@ const cors =require('cors')
 connectDB();
 // middlewares
 app.use(cors({
-  origin:["http://localhost:3000","https://suvashportfolio.netlify.app/"
+  origin:["https://suvash.netlify.app/"
 ]}))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
